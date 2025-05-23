@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  padding: 0.5rem;
+  width: 60%;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#weatherDisplay {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
